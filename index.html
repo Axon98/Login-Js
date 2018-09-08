@@ -1,0 +1,51 @@
+<html>
+<head>
+<title> Login </title>
+<script src="main.js"></script>
+<style>
+.container{
+float: center;
+margin: 0 auto;
+padding: 30px;
+border: 2px solid #000;
+background-color: lightblue;
+box-sizing: border-box;
+width: 400px;
+}
+
+#password{
+margin: 0 -3px;
+}
+
+#pass{
+margin: 0 4px;
+}
+
+#submit{
+margin: 15px 100px;
+padding: 5 60px;
+background-color: green;
+color: white;
+font-size: 16px;
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+      <div class="main">
+            <form id="formId" method="post" name="myForm">
+			<br>
+            <label>Username: </label>
+		    <input type="text" placeholder="Enter username" name="username" id="username">
+		     <br>
+            <label id="pass">Password: </label>
+            <input type="text" placeholder="Enter password" name="password" id="password">
+			 <br>
+            <input type="button" value="Login" id="submit" onclick="validate()"/>
+      </form>
+</div>
+</div>
+
+</body>
+</html>
